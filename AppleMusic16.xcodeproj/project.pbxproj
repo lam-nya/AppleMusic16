@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		785DD8FF27A24A5500A827C2 /* AppleMusic16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD8FE27A24A5500A827C2 /* AppleMusic16App.swift */; };
-		785DD90127A24A5500A827C2 /* TabViewMediateka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD90027A24A5500A827C2 /* TabViewMediateka.swift */; };
+		785DD90127A24A5500A827C2 /* AppleMusic16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD90027A24A5500A827C2 /* AppleMusic16.swift */; };
 		785DD90327A24A5700A827C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785DD90227A24A5700A827C2 /* Assets.xcassets */; };
 		785DD90627A24A5700A827C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785DD90527A24A5700A827C2 /* Preview Assets.xcassets */; };
-		785DD90D27A24BBC00A827C2 /* Mediateka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD90C27A24BBC00A827C2 /* Mediateka.swift */; };
+		785DD90D27A24BBC00A827C2 /* MediaLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD90C27A24BBC00A827C2 /* MediaLibrary.swift */; };
 		7880637427A294BC00DACABA /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7880637327A294BC00DACABA /* Categories.swift */; };
 		78FE6E8D27A290B3003D6987 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FE6E8C27A290B3003D6987 /* MiniPlayer.swift */; };
 /* End PBXBuildFile section */
@@ -19,10 +19,10 @@
 /* Begin PBXFileReference section */
 		785DD8FB27A24A5500A827C2 /* AppleMusic16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		785DD8FE27A24A5500A827C2 /* AppleMusic16App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic16App.swift; sourceTree = "<group>"; };
-		785DD90027A24A5500A827C2 /* TabViewMediateka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMediateka.swift; sourceTree = "<group>"; };
+		785DD90027A24A5500A827C2 /* AppleMusic16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic16.swift; sourceTree = "<group>"; };
 		785DD90227A24A5700A827C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		785DD90527A24A5700A827C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		785DD90C27A24BBC00A827C2 /* Mediateka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediateka.swift; sourceTree = "<group>"; };
+		785DD90C27A24BBC00A827C2 /* MediaLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibrary.swift; sourceTree = "<group>"; };
 		7880637327A294BC00DACABA /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		78FE6E8C27A290B3003D6987 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,10 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				785DD8FE27A24A5500A827C2 /* AppleMusic16App.swift */,
-				785DD90027A24A5500A827C2 /* TabViewMediateka.swift */,
-				78FE6E8C27A290B3003D6987 /* MiniPlayer.swift */,
-				785DD90C27A24BBC00A827C2 /* Mediateka.swift */,
-				7880637327A294BC00DACABA /* Categories.swift */,
+				788A88B627AAF1BE00341E6B /* Views */,
 				785DD90227A24A5700A827C2 /* Assets.xcassets */,
 				785DD90427A24A5700A827C2 /* Preview Content */,
 			);
@@ -74,6 +71,25 @@
 				785DD90527A24A5700A827C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		788A88B627AAF1BE00341E6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				785DD90027A24A5500A827C2 /* AppleMusic16.swift */,
+				78FE6E8C27A290B3003D6987 /* MiniPlayer.swift */,
+				788A88B727AAF2AE00341E6B /* MediaLibrary */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		788A88B727AAF2AE00341E6B /* MediaLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				785DD90C27A24BBC00A827C2 /* MediaLibrary.swift */,
+				7880637327A294BC00DACABA /* Categories.swift */,
+			);
+			path = MediaLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,11 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				785DD90127A24A5500A827C2 /* TabViewMediateka.swift in Sources */,
+				785DD90127A24A5500A827C2 /* AppleMusic16.swift in Sources */,
 				78FE6E8D27A290B3003D6987 /* MiniPlayer.swift in Sources */,
 				7880637427A294BC00DACABA /* Categories.swift in Sources */,
 				785DD8FF27A24A5500A827C2 /* AppleMusic16App.swift in Sources */,
-				785DD90D27A24BBC00A827C2 /* Mediateka.swift in Sources */,
+				785DD90D27A24BBC00A827C2 /* MediaLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

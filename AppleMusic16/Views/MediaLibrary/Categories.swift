@@ -14,7 +14,6 @@ struct CategoryItem: Hashable {
 
 struct Categories: View {
 
-
     @State private var selection = Set<CategoryItem>()
 
     @State private var categoryItems: [CategoryItem] = [
@@ -38,7 +37,6 @@ struct Categories: View {
     func move(fromOffsets source: IndexSet, toOffset destination: Int) {
         categoryItems.move(fromOffsets: source, toOffset: destination)
       }
-
 }
 
 struct Categories_Previews: PreviewProvider {

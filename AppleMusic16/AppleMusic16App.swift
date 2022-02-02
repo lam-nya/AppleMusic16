@@ -11,7 +11,7 @@ import SwiftUI
 struct AppleMusic16App: App {
     var body: some Scene {
         WindowGroup {
-            TabViewMediateka()
+            AppleMusic16()
         }
     }
 }

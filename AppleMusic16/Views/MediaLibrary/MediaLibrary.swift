@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Mediateka: View {
+struct MediaLibrary: View {
 
     var body: some View {
             VStack {
@@ -19,7 +19,6 @@ struct Mediateka: View {
                     .font(.title3)
                     .foregroundColor(.gray)
                     .multilineTextAlignment(.center)
-
             }
             .padding()
     }
@@ -27,7 +26,6 @@ struct Mediateka: View {
 
 struct Mediateka_Previews: PreviewProvider {
     static var previews: some View {
-        Mediateka()
-//        TabViewMediateka()
+        MediaLibrary()
     }
 }
