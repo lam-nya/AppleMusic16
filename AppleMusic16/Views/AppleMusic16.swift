@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TabViewMediateka: View {
+struct AppleMusic16: View {
 
     @State var isEditable = false
     @State var buttonText = "Править"
@@ -18,12 +18,13 @@ struct TabViewMediateka: View {
                 VStack {
                 Spacer()
                     if !isEditable {
-                        Mediateka()
+                        MediaLibrary()
                     } else {
                         Categories()
                     }
                 Spacer()
                 MiniPlayer()
+                Divider()
                 }
                 .navigationTitle("Медиатека")
                 .navigationBarItems(
@@ -51,19 +52,18 @@ struct TabViewMediateka: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                     }
-                Text("Здесь будет поискк")
+                Text("Здесь будет поиск")
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Поиск")
                     }
             }
             .accentColor(.red)
-
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        TabViewMediateka()
+        AppleMusic16()
     }
 }
